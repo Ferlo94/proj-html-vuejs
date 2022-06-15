@@ -11,7 +11,7 @@
                 <a href="#">Link</a>
                 <a href="#">Link</a>
                 <a href="#">Link</a>
-                <button>ciao</button>
+                <button>GET IN TOUCH NOW</button>
             </div>
         </div>
         <div class="header__bottom">
@@ -29,12 +29,15 @@ export default {
 
 <style lang='scss'>
 
+@import '../assets/style/mixins.scss';
+
 .header {
 
-    height: 300px;
+    height: 900px;
     background-image: url(../assets/img/1-hero-image.png);
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: cover;
+    background-position: center;
 
     &__top {
         margin: auto;
@@ -60,12 +63,17 @@ export default {
 
     &__nav {
         display: flex;
+        align-items: center;
 
         a {
             text-decoration: none;
             color: var(--white);
             margin: 0px 20px;
 
+        }
+
+        button {
+            @include button-orange;
         }
 
     }

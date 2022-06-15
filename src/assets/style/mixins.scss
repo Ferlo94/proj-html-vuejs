@@ -1,0 +1,9 @@
+@mixin button-orange {
+    background-color: orange;
+    border: none;
+    padding: 12px;
+    border-radius: 50px;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 10px;
+}
