@@ -40,23 +40,22 @@ export default {
         margin: auto;
         max-width: var(--container-medium);
         display: flex;
-        height: 50px;
+        height: 60px;
         justify-content: space-between;
         align-items: center;
         
 
         .header-logo {
             height: 100%;
+
+            img {
+                padding: 10px;
+            }
         }
     }
 
     &__bottom {
-        height: 300px;
-        display: flex;
-        background-image: url(../assets/img/1-hero-image.png);
-        background-repeat: no-repeat;
-
-        width: 100%;
+        
     }
 
     &__nav {
@@ -64,7 +63,11 @@ export default {
 
         a {
             text-decoration: none;
+            color: var(--white);
+            margin: 0px 20px;
+
         }
+
     }
 }
 
