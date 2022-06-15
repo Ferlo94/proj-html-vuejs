@@ -14,10 +14,14 @@
                 <button>GET IN TOUCH NOW</button>
             </div>
         </div>
-        <div class="header__bottom">
-            <h1>SEM Campaign</h1>
+        <div class="header__bottom-container">
+            <div class="header__bottom">
+                <h1>SEM Campaigns Made <br> Simple With Avada</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt culpa provident maxime.</p>
+                <button class="btn-header-orange">BUY AVADA NOW</button>
+                <button class="btn-header-blue">CONTACT US</button>
+            </div>
         </div>
-
     </header>
 </template>
 
@@ -33,7 +37,7 @@ export default {
 
 .header {
 
-    height: 900px;
+    height: 800px;
     background-image: url(../assets/img/1-hero-image.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,11 +61,38 @@ export default {
         }
     }
 
-    &__bottom {
+    &__bottom-container {
         @include container-medium;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        height: 80%;
+        
+        .header__bottom {
+
+             max-width: 480px;
+            h1 {
+                color: var(--white);
+                font-size: 40px;
+                margin-bottom: 23px;
+            };
+            p {
+                color: var(--white);
+                margin-bottom: 23px;
+            };
+           
+
+            .btn-header-orange {
+                @include button-orange;
+                margin-right: 20px;
+            }
+
+            .btn-header-blue {
+                @include button-blue;
+            }
+        }
     }
+
 
     &__nav {
         display: flex;
