@@ -6,4 +6,10 @@
     color: var(--white);
     font-weight: bold;
     font-size: 10px;
+    cursor: pointer;
+};
+
+@mixin container-medium {
+    max-width: var(--container-medium);
+    margin: auto;
 }

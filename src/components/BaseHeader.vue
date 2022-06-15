@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="header__bottom">
-            
+            <h1>SEM Campaign</h1>
         </div>
 
     </header>
@@ -40,8 +40,7 @@ export default {
     background-position: center;
 
     &__top {
-        margin: auto;
-        max-width: var(--container-medium);
+        @include container-medium;
         display: flex;
         height: 60px;
         justify-content: space-between;
@@ -53,12 +52,15 @@ export default {
 
             img {
                 padding: 10px;
+                cursor: pointer;
             }
         }
     }
 
     &__bottom {
-        
+        @include container-medium;
+        display: flex;
+        flex-direction: column;
     }
 
     &__nav {
