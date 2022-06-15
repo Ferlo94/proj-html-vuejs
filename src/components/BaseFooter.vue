@@ -85,9 +85,9 @@ export default {
     }
 
     &__icon {
-        font-size: 40px;
+        font-size: 30px;
         color: var(--grey);
-        margin: 0px 20px
+        margin: 0px 0px 60px 25px
 
     }
 
