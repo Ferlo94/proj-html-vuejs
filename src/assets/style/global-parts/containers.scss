@@ -1,0 +1,17 @@
+.container-xs {
+    margin: auto;
+    width: 100%;
+    max-width: var(--container-x-small);
+};
+
+.container-s {
+    margin: auto;
+    width: 100%;
+    max-width: --container-small;
+};
+
+.container-m {
+    margin: auto;
+    width: 100%;
+    max-width: --container-medium;
+};
