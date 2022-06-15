@@ -5,12 +5,12 @@
                 <img src="../assets/img/logo_seo_w_1x.png" alt="">
             </div>
             <div class="header__nav">
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
+                <a class="header-link" href="#">Home</a>
+                <a class="header-link" href="#">Who We Are</a>
+                <a class="header-link" href="#">What We Do</a>
+                <a class="header-link" href="#">Where We Work</a>
+                <a class="header-link" href="#">Careers</a>
+                <a class="header-link" href="#">News</a>
                 <button>GET IN TOUCH NOW</button>
             </div>
         </div>
@@ -37,7 +37,7 @@ export default {
 
 .header {
 
-    height: 800px;
+    height: 700px;
     background-image: url(../assets/img/1-hero-image.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,6 +103,10 @@ export default {
             color: var(--white);
             margin: 0px 20px;
 
+        }
+
+        a:hover {
+            color: #ffa837;
         }
 
         button {
