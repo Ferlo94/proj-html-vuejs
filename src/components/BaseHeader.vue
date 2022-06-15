@@ -102,6 +102,7 @@ export default {
             text-decoration: none;
             color: var(--white);
             margin: 0px 20px;
+        
 
         }
 

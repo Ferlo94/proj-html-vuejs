@@ -1,7 +1,7 @@
 @mixin button-orange {
     background-color: #ffa837;
     border: none;
-    padding: 12px 20px;
+    padding: 12px 25px;
     border-radius: 50px;
     color: var(--white);
     font-weight: bold;
@@ -12,7 +12,7 @@
 @mixin button-blue {
     background-color: #556eed;
     border: none;
-    padding: 12px 20px;
+    padding: 12px 25px;
     border-radius: 50px;
     color: var(--white);
     font-weight: bold;
