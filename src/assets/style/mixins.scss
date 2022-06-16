@@ -20,6 +20,16 @@
     cursor: pointer;
 };
 
+@mixin container-xx-small {
+    max-width: var(--container-xx-small);
+    margin: auto;
+}
+
+@mixin container-x-small {
+    max-width: var(--container-x-small);
+    margin: auto;
+}
+
 @mixin container-medium {
     max-width: var(--container-medium);
     margin: auto;

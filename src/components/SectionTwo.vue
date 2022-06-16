@@ -41,6 +41,7 @@ export default {
 
 <style lang= 'scss' scoped>
 
+
     .section {
         
         min-height: 650px;

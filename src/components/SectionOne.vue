@@ -36,16 +36,17 @@ export default {
 
 <style lang='scss' scoped>
 
+@import '../assets/style/mixins.scss';
+
     .section {
         min-height: 650px;
         background: #f7f8fa;
 
         &__top {
+            @include container-x-small;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            max-width: var(--container-x-small);
-            margin: auto;
             text-align: center;
 
             h2 {
@@ -62,9 +63,8 @@ export default {
         }
 
         &__mid {
+            @include container-medium;
             display: flex;
-            max-width: var(--container-medium);
-            margin: auto;
             justify-content: center;
             margin-top: 30px;
 

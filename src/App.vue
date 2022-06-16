@@ -13,9 +13,11 @@
 import BaseHeader from './components/BaseHeader.vue'
 import BaseMain from './components/BaseMain.vue'
 import BaseFooter from './components/BaseFooter.vue'
+
 export default {
   name: 'App',
   components: {
+
     BaseHeader,
     BaseMain,
     BaseFooter,
@@ -25,5 +27,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import './assets/style/global.scss'
+  @import './assets/style/global.scss'
 </style>
