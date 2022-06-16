@@ -11,13 +11,13 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti t consectetur, adipis. </p>
             </div>
             <div class="card-section-1">
-                <i class="fa-solid fa-road icon"></i>
-                <h3>Establish Goals</h3>
+                <i class="fa-solid fa-video icon"></i>
+                <h3>Work Whith a Team</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti t consectetur, adipis. </p>
             </div>
             <div class="card-section-1">
-                <i class="fa-solid fa-road icon"></i>
-                <h3>Establish Goals</h3>
+                <i class="fa-solid fa-droplet icon"></i>
+                <h3>Get Results</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti t consectetur, adipis. </p>
             </div>
         </div>
@@ -35,6 +35,7 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+
     .section {
         height: 650px;
         background: #f7f8fa;
@@ -65,6 +66,7 @@ export default {
             max-width: var(--container-medium);
             margin: auto;
             justify-content: center;
+            margin-top: 30px;
 
             .card-section-1 {
                 background: white;
@@ -86,10 +88,12 @@ export default {
 
                 h3 {
                     margin: 10px 0px;
+                    font-size: 16px;
                 }
 
                 p {
                     font-size: 12px;
+                    font-weight: 500;
                 }
             }
         }
