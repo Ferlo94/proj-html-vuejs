@@ -49,6 +49,7 @@ export default {
             p {
                 color: var(--grey);
                 font-weight: 500;
+                margin: 0px 0px 40px 0px;
             }
         }
 
