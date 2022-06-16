@@ -80,11 +80,12 @@ export default {
             display: flex;
             max-width: var(--container-medium);
             justify-content: center;
+            margin-top: 30px;
 
             .card-section-2 {
                 background: #071b50;
                 height: 280px;
-                width: 210px;
+                width: 200px;
 
                 display: flex;
                 flex-direction: column;
@@ -96,7 +97,7 @@ export default {
 
                 .icon {
                     color: var(--orange);
-                    font-size: 20px;
+                    font-size: 25px;
                     
 
                 }
