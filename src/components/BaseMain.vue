@@ -1,15 +1,24 @@
 <template>
-    <main>
-        
+    <main class="main">
+        <SectionOne/>
     </main>
 </template>
 
 <script>
-export default {
 
+import SectionOne from './SectionOne.vue'
+
+export default {
+    name: 'BaseMain',
+
+    components: {
+        SectionOne,
+    }
 }
 </script>
 
-<style>
+
+
+<style lang='scss'>
 
 </style>
