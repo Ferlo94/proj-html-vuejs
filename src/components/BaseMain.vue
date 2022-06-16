@@ -2,6 +2,7 @@
     <main class="main">
         <SectionOne/>
         <SectionTwo/>
+        <SectionThree/>
     </main>
 </template>
 
@@ -9,6 +10,7 @@
 
 import SectionOne from './SectionOne.vue'
 import SectionTwo from './SectionTwo.vue'
+import SectionThree from './SectionThree.vue'
 
 export default {
     name: 'BaseMain',
@@ -16,6 +18,7 @@ export default {
     components: {
         SectionOne,
         SectionTwo,
+        SectionThree,
     }
 }
 </script>
