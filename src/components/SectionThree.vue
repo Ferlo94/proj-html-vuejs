@@ -73,8 +73,12 @@ export default {
             justify-content: center;
 
             .btn {
-                margin: 40px 0px 30px 0px;
-                @include button-orange;
+                margin: 30px 0px 80px 0px;
+                @include button-orange-bis;
+            }
+
+            .btn:hover {
+                @include button-white;
             }
         }
     }

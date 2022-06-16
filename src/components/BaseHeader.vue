@@ -37,7 +37,7 @@ export default {
 
 .header {
 
-    height: 700px;
+    height: 650px;
     background-image: url(../assets/img/1-hero-image.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,17 +78,25 @@ export default {
             };
             p {
                 color: var(--white);
-                margin-bottom: 23px;
+                margin-bottom: 30px;
             };
            
 
             .btn-header-orange {
-                @include button-orange;
+                @include button-orange-bis;
                 margin-right: 20px;
             }
 
+            .btn-header-orange:hover {
+                @include button-white;
+            }
+
             .btn-header-blue {
-                @include button-blue;
+                @include button-blue-bis;
+            }
+
+            .btn-header-blue:hover {
+                @include button-white;
             }
         }
     }
@@ -111,7 +119,11 @@ export default {
         }
 
         button {
-            @include button-orange;
+            @include button-orange-bis;
+        }
+
+        button:hover {
+            @include button-white;
         }
 
     }

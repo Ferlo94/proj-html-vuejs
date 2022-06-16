@@ -124,6 +124,10 @@ export default {
                     }
                 }
             }
+
+            .card-section-2:hover {
+                border: 2px solid var(--orange);
+            }
         }
     }
 
