@@ -6,7 +6,25 @@
         </div>
         <div class="section__bottom">
             <div class="card-section-2">
-                <i class="fa-solid fa-road icon"></i>
+                <i class="fa-brands fa-google icon"></i>
+                <h3>Establish Goals</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti t consectetur, adipis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nihil debitis quas illo hic. </p>
+                <p class="orange-p">Read More &nbsp; <i class="fa-solid fa-angle-right"></i></p>
+            </div>
+            <div class="card-section-2">
+                <i class="fa-solid fa-gear icon"></i>
+                <h3>Establish Goals</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti t consectetur, adipis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nihil debitis quas illo hic. </p>
+                <p class="orange-p">Read More &nbsp; <i class="fa-solid fa-angle-right"></i></p>
+            </div>
+            <div class="card-section-2">
+                <i class="fa-solid fa-building icon"></i>
+                <h3>Establish Goals</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti t consectetur, adipis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nihil debitis quas illo hic. </p>
+                <p class="orange-p">Read More &nbsp; <i class="fa-solid fa-angle-right"></i></p>
+            </div>
+            <div class="card-section-2">
+                <i class="fa-solid fa-chart-column icon"></i>
                 <h3>Establish Goals</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti t consectetur, adipis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nihil debitis quas illo hic. </p>
                 <p class="orange-p">Read More &nbsp; <i class="fa-solid fa-angle-right"></i></p>
