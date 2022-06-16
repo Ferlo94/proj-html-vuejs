@@ -8,7 +8,7 @@
             <a class="footer-link" href="#">Who We Are</a>
             <a class="footer-link" href="#">What We Do</a>
             <a class="footer-link" href="#">Where We Work</a>
-            <a class="footer-link" href="#">Careerso</a>
+            <a class="footer-link" href="#">Careers</a>
             <a class="footer-link" href="#">News </a>
         </div>
         <div class="footer__copyright">

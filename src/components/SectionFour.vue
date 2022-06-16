@@ -7,6 +7,13 @@
         <div class="section__bottom">
             <div class="card-section-3">
                 <h2>Standard</h2>
+                <div class="blue-number">
+
+                </div>
+                <p>15 Projects</p>
+                <p>30GB Storage</p>
+                <p>Unlimited Users</p>
+                <button class="btn">START TODAY</button>
             </div>
         </div>
     </section>
@@ -19,6 +26,9 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+
+@import '../assets/style/mixins.scss';
+
     .section {
         min-height: 600px;
         display: flex;
@@ -59,6 +69,18 @@ export default {
                 display: flex;
                 flex-direction: column;
                 padding: 20px;
+
+                .blue-number {
+
+                }
+
+                .btn {
+                    @include button-white;
+                }
+
+                .btn:hover {
+                    @include button-orange-bis;
+                }
             }
         }
     }

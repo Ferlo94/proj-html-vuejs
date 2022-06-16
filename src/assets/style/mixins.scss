@@ -20,6 +20,30 @@
     cursor: pointer;
 };
 
+@mixin button-white {
+    background-color: #ffff;
+    border: none;
+    padding: 12px 25px;
+    border: 2px solid var(--grey);
+    border-radius: 50px;
+    color: var(--grey);
+    font-weight: 800;
+    font-size: 10px;
+    cursor: pointer;
+};
+
+@mixin button-orange-bis {
+    background-color: #ffa837;
+    border: none;
+    padding: 12px 25px;
+    border: 2px solid var(--orange);
+    border-radius: 50px;
+    color: var(--white);
+    font-weight: 800;
+    font-size: 10px;
+    cursor: pointer;
+};
+
 @mixin container-xx-small {
     max-width: var(--container-xx-small);
     margin: auto;
