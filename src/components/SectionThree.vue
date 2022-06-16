@@ -61,10 +61,15 @@ export default {
             display: flex;
             flex-wrap: wrap;
 
-
             img {
-                width: calc(100% / 3);
-                padding: 10px;
+                width: calc(100% / 3 - 30px);
+                border: solid 5px transparent;
+                margin: 5px;
+                cursor: pointer;
+            }
+
+            img:hover {
+                border-color: var(--orange);
             }
         }
 

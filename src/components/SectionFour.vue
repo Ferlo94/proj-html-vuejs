@@ -6,7 +6,7 @@
         </div>
         <!-- 1 -->
         <div class="section__bottom">
-            <div class="card-section-3">
+            <div class="card-section-4">
                 <h2>Standard</h2>
                 <div class="blue-number">
                     <div class="dollaro">$</div>
@@ -22,7 +22,7 @@
                 <button class="btn">START TODAY</button>
             </div>
             <!-- 2 -->
-            <div class="card-section-3">
+            <div class="card-section-4">
                 <h2>Standard</h2>
                 <div class="blue-number">
                     <div class="dollaro">$</div>
@@ -38,7 +38,7 @@
                 <button class="btn">START TODAY</button>
             </div>
             <!-- 3 -->
-            <div class="card-section-3">
+            <div class="card-section-4">
                 <h2>Standard</h2>
                 <div class="blue-number">
                     <div class="dollaro">$</div>
@@ -54,7 +54,7 @@
                 <button class="btn">START TODAY</button>
             </div>
             <!-- 4 -->
-            <div class="card-section-3">
+            <div class="card-section-4">
                 <h2>Standard</h2>
                 <div class="blue-number">
                     <div class="dollaro">$</div>
@@ -114,7 +114,7 @@ export default {
             display: flex;
             justify-content: center;
 
-            .card-section-3 {
+            .card-section-4 {
                 background: white;
                 height: 300px;
                 width: 200px;
@@ -125,6 +125,7 @@ export default {
                 justify-content: center;
                 padding: 20px;
                 margin: 60px 10px;
+                cursor: pointer;
 
                 .gigabyte {
                     margin: 20px 0px;
@@ -182,6 +183,10 @@ export default {
                     font-size: 12px;
                     font-weight: 500;
                 }
+            }
+
+            .card-section-4:hover {
+                border: 4px solid var(--orange);
             }
         }
     }

@@ -47,6 +47,8 @@ export default {
 
     &__logo {
         margin: 80px 0px;
+        cursor: pointer;
+        
         img {
             width: 230px
         }
@@ -62,7 +64,7 @@ export default {
             text-decoration: none;
             color: var(--grey);
             margin: 0px 20px;
-            font-weight: bold;
+            font-weight: 500;
             font-size: 19px;
 
         }
@@ -87,8 +89,13 @@ export default {
     &__icon {
         font-size: 30px;
         color: var(--grey);
-        margin: 0px 0px 60px 25px
+        margin: 0px 0px 60px 25px;
+        cursor: pointer;
 
+    }
+
+    &__icon:hover {
+        color: var(--orange)
     }
 
     

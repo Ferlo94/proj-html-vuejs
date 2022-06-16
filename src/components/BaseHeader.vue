@@ -37,7 +37,7 @@ export default {
 
 .header {
 
-    height: 650px;
+    height: 630px;
     background-image: url(../assets/img/1-hero-image.png);
     background-repeat: no-repeat;
     background-size: cover;

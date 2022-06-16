@@ -79,6 +79,7 @@ export default {
                 text-align: center;
                 padding: 20px;
                 margin: 10px;
+                cursor: pointer;
 
                 .icon {
                     color: var(--orange);
