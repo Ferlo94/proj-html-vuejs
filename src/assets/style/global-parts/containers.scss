@@ -7,11 +7,11 @@
 .container-s {
     margin: auto;
     width: 100%;
-    max-width: --container-small;
+    max-width: var(--container-small);
 };
 
 .container-m {
     margin: auto;
     width: 100%;
-    max-width: --container-medium;
+    max-width: var(--container-medium);
 };

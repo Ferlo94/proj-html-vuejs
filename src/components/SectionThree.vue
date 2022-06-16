@@ -14,7 +14,7 @@
             
         </div>
         <div class="section__btn">
-
+            <button class="btn">VIEW OUR WORK</button>
         </div>
     </section>
 </template>
@@ -26,6 +26,9 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+
+@import '../assets/style/mixins.scss';
+
     .section {
         min-height: 400px;
         display: flex;
@@ -61,6 +64,16 @@ export default {
             img {
                 width: calc(100% / 3);
                 padding: 10px;
+            }
+        }
+
+        &__btn {
+            display: flex;
+            justify-content: center;
+
+            .btn {
+                margin: 40px 0px 30px 0px;
+                @include button-orange;
             }
         }
     }
