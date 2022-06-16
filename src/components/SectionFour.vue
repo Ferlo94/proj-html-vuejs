@@ -4,6 +4,7 @@
             <h2>Our Plans</h2>
             <p>Lorem ipsum dolor sit amet c commodi eaque dolorem ipsa laudantium.</p>
         </div>
+        <!-- 1 -->
         <div class="section__bottom">
             <div class="card-section-3">
                 <h2>Standard</h2>
@@ -15,53 +16,56 @@
                         <div class="monthly">monthly</div>
                     </div>
                 </div>
-                <p>15 Projects</p>
-                <p class="gigabyte">30GB Storage</p>
+                <p>5 Projects</p>
+                <p class="gigabyte">5 GB Storage</p>
                 <p>Unlimited Users</p>
                 <button class="btn">START TODAY</button>
             </div>
+            <!-- 2 -->
             <div class="card-section-3">
                 <h2>Standard</h2>
                 <div class="blue-number">
                     <div class="dollaro">$</div>
-                    <div class="numero-grande">19</div>
+                    <div class="numero-grande">29</div>
+                    <div class="col-dx">
+                        <div class="novantanove">99</div>
+                        <div class="monthly">monthly</div>
+                    </div>
+                </div>
+                <p>10 Projects</p>
+                <p class="gigabyte">15 GB Storage</p>
+                <p>Unlimited Users</p>
+                <button class="btn">START TODAY</button>
+            </div>
+            <!-- 3 -->
+            <div class="card-section-3">
+                <h2>Standard</h2>
+                <div class="blue-number">
+                    <div class="dollaro">$</div>
+                    <div class="numero-grande">39</div>
                     <div class="col-dx">
                         <div class="novantanove">99</div>
                         <div class="monthly">monthly</div>
                     </div>
                 </div>
                 <p>15 Projects</p>
-                <p class="gigabyte">30GB Storage</p>
+                <p class="gigabyte">30 GB Storage</p>
                 <p>Unlimited Users</p>
                 <button class="btn">START TODAY</button>
             </div>
+            <!-- 4 -->
             <div class="card-section-3">
                 <h2>Standard</h2>
                 <div class="blue-number">
                     <div class="dollaro">$</div>
-                    <div class="numero-grande">19</div>
+                    <div class="numero-grande">59</div>
                     <div class="col-dx">
                         <div class="novantanove">99</div>
                         <div class="monthly">monthly</div>
                     </div>
                 </div>
-                <p>15 Projects</p>
-                <p class="gigabyte">30GB Storage</p>
-                <p>Unlimited Users</p>
-                <button class="btn">START TODAY</button>
-            </div>
-            <div class="card-section-3">
-                <h2>Standard</h2>
-                <div class="blue-number">
-                    <div class="dollaro">$</div>
-                    <div class="numero-grande">19</div>
-                    <div class="col-dx">
-                        <div class="novantanove">99</div>
-                        <div class="monthly">monthly</div>
-                    </div>
-                </div>
-                <p>15 Projects</p>
-                <p class="gigabyte">30GB Storage</p>
+                <p>Unlimited Projects</p>
+                <p class="gigabyte">Unlimited Storage</p>
                 <p>Unlimited Users</p>
                 <button class="btn">START TODAY</button>
             </div>
@@ -176,6 +180,7 @@ export default {
                 p {
                     color: var(--grey);
                     font-size: 12px;
+                    font-weight: 500;
                 }
             }
         }
