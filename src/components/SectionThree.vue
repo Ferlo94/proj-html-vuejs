@@ -6,11 +6,11 @@
         </div>
         <div class="section__img">
             <img src="../assets/img/case-study-gallery-3-1-200x150.jpg" alt="">
-            <img src="../assets/img/case-study-gallery-3-1-200x150.jpg" alt="">
-            <img src="../assets/img/case-study-gallery-3-1-200x150.jpg" alt="">
-            <img src="../assets/img/case-study-gallery-3-1-200x150.jpg" alt="">
-            <img src="../assets/img/case-study-gallery-3-1-200x150.jpg" alt="">
-            <img src="../assets/img/case-study-gallery-3-1-200x150.jpg" alt="">
+            <img src="../assets/img/case-study-gallery-2-200x150.jpg" alt="">
+            <img src="../assets/img/case-study-gallery-1-1-200x150.jpg" alt="">
+            <img src="../assets/img/case-study-gallery-4-1-200x150.jpg" alt="">
+            <img src="../assets/img/case-study-gallery-5-1-200x150.jpg" alt="">
+            <img src="../assets/img/case-study-gallery-6-1-200x150.jpg" alt="">
             
         </div>
         <div class="section__btn">
