@@ -10,6 +10,16 @@
                 <h3>Establish Goals</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti t consectetur, adipis. </p>
             </div>
+            <div class="card-section-1">
+                <i class="fa-solid fa-road icon"></i>
+                <h3>Establish Goals</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti t consectetur, adipis. </p>
+            </div>
+            <div class="card-section-1">
+                <i class="fa-solid fa-road icon"></i>
+                <h3>Establish Goals</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti t consectetur, adipis. </p>
+            </div>
         </div>
         <div class="section__bottom">
 
@@ -53,6 +63,8 @@ export default {
         &__mid {
             display: flex;
             max-width: var(--container-medium);
+            margin: auto;
+            justify-content: center;
 
             .card-section-1 {
                 background: white;
@@ -64,6 +76,7 @@ export default {
                 align-items: center;
                 text-align: center;
                 padding: 20px;
+                margin: 10px;
 
                 .icon {
                     color: var(--orange);
