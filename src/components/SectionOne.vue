@@ -5,7 +5,11 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing eli, <br> distinctio. quae quibusdam corporis.</p>
         </div>
         <div class="section__mid">
-            <div class="card-section-1"></div>
+            <div class="card-section-1">
+                <i class="fa-solid fa-road icon"></i>
+                <h3>Establish Goals</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti t consectetur, adipis. </p>
+            </div>
         </div>
         <div class="section__bottom">
 
@@ -54,6 +58,26 @@ export default {
                 background: white;
                 height: 180px;
                 width: 220px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 20px;
+
+                .icon {
+                    color: var(--orange);
+                    font-size: 20px;
+
+                }
+
+                h3 {
+                    margin: 10px 0px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
             }
         }
     }
