@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="section__bottom">
-
+            <img src="../assets/img/agency-seo-desk-front-800x380.jpg" alt="">
         </div>
 
     </section>
@@ -37,7 +37,7 @@ export default {
 <style lang='scss' scoped>
 
     .section {
-        height: 650px;
+        min-height: 650px;
         background: #f7f8fa;
 
         &__top {
@@ -96,6 +96,11 @@ export default {
                     font-weight: 500;
                 }
             }
+        }
+
+        &__bottom {
+            display: flex;
+            justify-content: center;
         }
     }
 </style>
