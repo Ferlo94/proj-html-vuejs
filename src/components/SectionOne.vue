@@ -8,21 +8,21 @@
             <div class="card-section-1">
                 <i class="fa-solid fa-road icon"></i>
                 <h3>Establish Goals</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti t consectetur, adipis. </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti  adipis. Lorem ipsum dolor sit amet consectetur  </p>
             </div>
             <div class="card-section-1">
                 <i class="fa-solid fa-video icon"></i>
                 <h3>Work Whith a Team</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti t consectetur, adipis. </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti  adipis. Lorem ipsum dolor sit amet consectetur  </p>
             </div>
             <div class="card-section-1">
                 <i class="fa-solid fa-droplet icon"></i>
                 <h3>Get Results</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti t consectetur, adipis. </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molesti  adipis. Lorem ipsum dolor sit amet consectetur  </p>
             </div>
         </div>
         <div class="section__bottom">
-            <img src="../assets/img/agency-seo-desk-front-800x380.jpg" alt="">
+            <img src="../assets/img/agency-seo-desk-front-1200x570.jpg" alt="">
         </div>
 
     </section>
@@ -70,8 +70,8 @@ export default {
 
             .card-section-1 {
                 background: white;
-                height: 180px;
-                width: 220px;
+                height: 280px;
+                width: calc(100% / 3);
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -83,17 +83,17 @@ export default {
 
                 .icon {
                     color: var(--orange);
-                    font-size: 20px;
+                    font-size: 30px;
 
                 }
 
                 h3 {
-                    margin: 10px 0px;
-                    font-size: 16px;
+                    margin: 25px 0px;
+                    font-size: 25px;
                 }
 
                 p {
-                    font-size: 12px;
+                    font-size: 16px;
                     font-weight: 500;
                 }
             }

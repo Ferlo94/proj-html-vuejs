@@ -44,6 +44,7 @@ export default {
     flex-direction: column;
     align-items: center;
     height: 280px;
+    background: white;
 
     &__logo {
         margin: 80px 0px;

@@ -66,7 +66,7 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 80%;
+        height: 84%;
         
         .header__bottom {
 

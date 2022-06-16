@@ -85,15 +85,15 @@ export default {
 
             .card-section-2 {
                 background: #071b50;
-                height: 280px;
-                width: 200px;
+                height: 350px;
+                width: calc(100% / 4);
 
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                padding: 20px;
+                padding: 40px;
                 margin: 10px;
                 cursor: pointer;
 
@@ -105,20 +105,20 @@ export default {
                 }
 
                 h3 {
-                    margin: 20px 0px 15px 0px;
+                    margin: 25px 0px 20px 0px;
                     font-size: 16px;
                     color: white;
                 }
 
                 p {
-                    font-size: 12px;
+                    font-size: 15px;
                     font-weight: 500;
                     color: white;
                 }
 
                 .orange-p {
                     color: var(--orange);
-                    margin-top: 20px;
+                    margin-top: 30px;
 
                     .fa-angle-right {
                         font-size: 10px;

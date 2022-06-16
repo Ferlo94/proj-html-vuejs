@@ -113,18 +113,20 @@ export default {
         &__bottom {
             display: flex;
             justify-content: center;
+            width: var(--container-medium);
 
             .card-section-4 {
+                
                 background: white;
-                height: 300px;
-                width: 200px;
+                height: 350px;
+                width: calc(100% / 4);
 
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
                 padding: 20px;
-                margin: 60px 10px;
+                margin: 60px 10px 80px 10px;
                 cursor: pointer;
 
                 .gigabyte {
