@@ -96,6 +96,10 @@ export default {
                     font-weight: 500;
                 }
             }
+
+            .card-section-1:hover {
+                border: 2px solid black;
+            }
         }
 
         &__bottom {
