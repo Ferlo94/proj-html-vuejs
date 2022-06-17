@@ -123,6 +123,7 @@ export default {
 
         button {
             @include button-orange-bis;
+            margin-left: 20px;
         }
 
         button:hover {
