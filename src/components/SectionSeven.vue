@@ -19,10 +19,13 @@ export default {
 @import '../assets/style/mixins.scss';
 
 .section {
-    min-height: 550px;
+    min-height: 500px;
     display: flex;
 
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/img/CTA-seo-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     
     justify-content: center;
     align-items: center;
@@ -48,7 +51,11 @@ export default {
 
         .btn {
             @include button-orange-bis;
-            max-width: 300px;
+            width: 180px;
+        }
+
+        .btn:hover {
+            @include button-white;
         }
 
     }

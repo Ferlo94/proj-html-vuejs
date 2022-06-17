@@ -80,6 +80,7 @@ export default {
                 padding: 20px;
                 margin: 10px;
                 cursor: pointer;
+                border: solid 2px transparent;
 
                 .icon {
                     color: var(--orange);

@@ -44,6 +44,7 @@ export default {
 
             h2 {
                 margin: 80px 0px 20px 0px;
+                font-size: 30px;
             }
 
             p {
@@ -80,6 +81,8 @@ export default {
             .btn {
                 margin: 30px 0px 80px 0px;
                 @include button-orange-bis;
+                width: 170px;
+                
             }
 
             .btn:hover {

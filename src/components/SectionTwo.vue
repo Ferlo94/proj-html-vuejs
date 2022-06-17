@@ -68,12 +68,14 @@ export default {
             h2 {
                 color: white;
                 margin-top: 70px;
+                font-size: 23px;
                 
             }
 
             p {
                 color: white;
                 margin: 20px 0px ;
+                font-size: 16px;
             }
         }
 
@@ -96,6 +98,7 @@ export default {
                 padding: 40px;
                 margin: 10px;
                 cursor: pointer;
+                border: solid 2px transparent;
 
                 .icon {
                     color: var(--orange);

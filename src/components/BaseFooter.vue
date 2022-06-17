@@ -64,9 +64,9 @@ export default {
         a {
             text-decoration: none;
             color: var(--grey);
-            margin: 0px 20px;
+            margin: 0px 35px;
             font-weight: 500;
-            font-size: 19px;
+            font-size: 21px;
 
         }
 

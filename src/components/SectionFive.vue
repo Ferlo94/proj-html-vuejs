@@ -53,6 +53,7 @@ export default {
         
         h2 {
             margin: 60px 0px 20px 0px;
+            font-size: 30px;
         }
 
         p {
@@ -71,6 +72,7 @@ export default {
         img {
             width: 100%;
             border: solid 5px transparent;
+            
         }
 
         img:hover {

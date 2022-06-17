@@ -46,13 +46,14 @@ export default {
     &__top {
         @include container-medium;
         display: flex;
-        height: 60px;
+        height: 80px;
         justify-content: space-between;
         align-items: center;
+
         
 
         .header-logo {
-            height: 100%;
+            
 
             img {
                 padding: 10px;
@@ -93,6 +94,7 @@ export default {
 
             .btn-header-blue {
                 @include button-blue-bis;
+                width: 150px;
             }
 
             .btn-header-blue:hover {

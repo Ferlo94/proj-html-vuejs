@@ -103,6 +103,7 @@ export default {
             h2 {
                 color: white;
                 margin: 70px 0px 20px 0px;
+                font-size: 30px;
             }
 
             p {
@@ -128,6 +129,7 @@ export default {
                 padding: 20px;
                 margin: 60px 10px 80px 10px;
                 cursor: pointer;
+                border: solid 4px transparent;
 
                 .gigabyte {
                     margin: 20px 0px;
