@@ -50,6 +50,7 @@ export default {
         &__img {
             img {
                 border-radius: 50%;
+                cursor: pointer;
             }
         }
 
@@ -91,6 +92,12 @@ export default {
 
             img {
                 margin: 80px 80px;
+                border: solid 5px transparent;
+                cursor: pointer;
+            }
+
+            img:hover {
+                border-color: var(--orange);
             }
         }
     }

@@ -72,7 +72,7 @@ export default {
         img {
             width: 100%;
             border: solid 5px transparent;
-            
+            cursor: pointer;
         }
 
         img:hover {
