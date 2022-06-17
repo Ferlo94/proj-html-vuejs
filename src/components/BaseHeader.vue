@@ -86,6 +86,7 @@ export default {
             .btn-header-orange {
                 @include button-orange-bis;
                 margin-right: 20px;
+                width: 170px;
             }
 
             .btn-header-orange:hover {

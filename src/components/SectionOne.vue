@@ -57,6 +57,7 @@ export default {
             p {
                 font-weight: 500;
                 color: var(--grey);
+                margin-bottom: 20px;
                 
             }
 
