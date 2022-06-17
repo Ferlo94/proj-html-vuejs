@@ -50,7 +50,12 @@ export default {
         &__img {
             img {
                 border-radius: 50%;
+                border: solid 5px transparent;
                 cursor: pointer;
+            }
+
+            img:hover {
+                border-color: var(--orange);
             }
         }
 
