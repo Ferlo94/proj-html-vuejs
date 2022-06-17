@@ -9,19 +9,19 @@
                 <img src="../assets/img/related-service-2-320x202.jpg" alt="">
                 <h3>Why You Need A SEO Agency Now</h3>
                 <p class="central-p">November 1st 2017</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam minima mollitia.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam dsfds fgdffg minima  fdsfeewtg mollitia.</p>
             </div>
             <div class="img-mid">
                 <img src="../assets/img/related-service-4-320x202.jpg" alt="">
                 <h3>SEO Tips For Your Startup</h3>
                 <p class="central-p">November 1st 2017</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam minima mollitia.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam dsfds fgdffg minima  fdsfeewtg mollitia.</p>
                 </div>
             <div class="img-dx">
                 <img src="../assets/img/blog-post-6-320x202.jpg" alt="">
                 <h3>Image Optimization For Your Site</h3>
                 <p class="central-p">November 1st 2017</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam minima mollitia.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam dsfds fgdffg minima  fdsfeewtg mollitia.</p>
                 </div>
         </div>
         <div class="section__bottom">
@@ -92,6 +92,7 @@ export default {
             p {
                 font-weight: 500;
                 color: var(--grey);
+                font-size: 15px;
             }
 
             h3 {
@@ -102,6 +103,7 @@ export default {
 
             .central-p {
                 margin: 10px 0px 15px 0px;
+                font-size: 13px
             }
         }
 

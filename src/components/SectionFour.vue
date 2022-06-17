@@ -140,13 +140,13 @@ export default {
                     margin: 20px 0px;
 
                     .dollaro {
-                        font-size: 11px;
+                        font-size: 15px;
                         font-weight: 800;
-                        margin-top: 3px;
+                        margin: 8px 1px 0px 0px;
                     }
 
                     .numero-grande {
-                        font-size: 25px;
+                        font-size: 40px;
                         font-weight: 800;
                         color: var(--blue)
                     }
@@ -157,16 +157,16 @@ export default {
                         align-items: flex-start;
 
                         .novantanove {
-                            font-size: 9px;
-                            margin-top: 3px;
+                            font-size: 11px;
+                            margin-top: 8px;
                             font-weight: 800;
                             color: var(--blue)
                         }
 
                         .monthly {
-                            font-size: 7px;
+                            font-size: 9px;
                             color: var(--grey);
-                            margin-top: 2px;
+                            margin-top: 6px;
                             font-style: italic
                         }
                     }
